@@ -49,6 +49,62 @@
 						<div class="inner">
 							<div class="Design">
 								<h1>Design</h1>
+								<p>The design phase focused on translating the goals of the project into a tangible, working solution. The availability of
+								3D modelling software such as Autodesk’s Fusion 360 was a critical tool that was used during this phase of development.
+								It facilitated the rapid modelling of various aspects of the model, including a 3D printable bearing for the jaw
+								mechanism, and spring mounts to ensure smooth jaw movement.</p>
+							</div>
+							<div class="Design">
+								<h1>Jaw Bearing</h1>
+								<h2>Justification</h2>
+								<p>For the jaw movement a bearing, situated at the connection point between the lower and upper jaw segments, was to be
+								used. The decision to design and 3D print a bearing was made fairly quickly, this was down to the cost of procuring two
+								ball bearings from a retailer being too high, with one unit costing in excess of £21 (RS, 2024). Designing and printing
+								a print-in-place substitute was much cheaper and was ultimately the path that was taken.</p>
+								<h2>Design considerations</h2>
+								<p>Whilst a usual bearing surrounds balls in walls to contain them, this was deemed as unnecessary and potentially worse as
+								3D printing perfectly spherical balls can be a challenge, owing to the extreme overhangs at the tops and bottoms of them
+								as they are being printed. To reduce wasted prints, rollers which increased in diameter at the ends were used instead.
+								This allowed the “ball” substitutes, rollers, to roll while not falling out, similar to a train wheel design. [IMAGE OF
+								TRAIN WHEEL AND CROSS SECTION OF BEARING PIN]. Whilst the negative was used to form the centre and outer casing.</p>
+								<h2>Design challenges</h2>
+								<p>The initial concept for the bearing incorporated 45-degree chamfered edges. However, limitations with 3D printers not
+								being able to print excessive overhangs (Kondo, 2023) necessitated a redesign for improved printability. The bearing was
+								redesigned with a 60-degree cut-out leaving a 30-degree chamfered edge allowing the overhangs to be printed correctly,
+								in place without any supports which would result in wasted materials and energy.</p>
+								<h2>Material choice and trade-offs</h2>
+								<p>Polylactic Acid (PLA), a common and easy to work with filament was chosen as the material for the model to be made of.
+								With the model intending to be used as a display piece, extreme durability and strength wasn’t required. PLA is a strong
+								enough material to support its own weight while being transported or touched, if the model was prone to being dropped an
+								alternative material such as ABS would be a better choice (TWI, 2020).
+								
+								Fused Deposition Modelling (FDM), results in visible layer lines affecting the surface smoothness of the model. For an
+								initial prototype that doesn’t require perfect operability, a layer height of 0.2mm was used. This leads to obvious
+								lines in the print that will affect the roughness of the inner bearing and the rollers. However, 0.2mm was chosen to
+								save on material cost and printing time, a final bearing could be printed with layer heights all the way down to 0.08mm
+								to increase smoothness.
+								
+								Moreover, PLA is a bioplastic being commonly made of fermented plant starch (BioPak, 2024) which can be recycled to
+								create new filament or composted into carbon dioxide and water in less than 90 days in a controlled environment (How
+								sustainable is PLA 3D printer filament?, Kinworthy, 2024). All while emitting fewer harmful fumes during the printing
+								process than alternative materials like ABS (Xometry, 2023). This led to its selection for use in all prototype models.</p>
+							</div>
+							<div class="Refrences">
+								<h1>References</h1>
+								<li>• RS (2024) SKF 6012 single row deep groove ball bearing- open type 60mm I.D, 95mm O.D, RS. Available at:
+								https://uk.rs-online.com/web/p/ball-bearings/7643496</li>
+								<li>• Kondo, H. (2023) 3D printing overhang: How to 3D print overhangs, All3DP. Available at:
+								https://all3dp.com/2/3d-printing-overhang-how-to-master-overhangs-exceeding-45/</li>
+								<li>• TWI (2020) What is pla? (everything you need to know), TWI. Available at:
+								https://www.twi-global.com/technical-knowledge/faqs/what-is-pla</li>
+								<li>• BioPak (2024) What is PLA plastic?, What Is PLA Plastic. Available at:
+								https://www.biopak.com/uk/resources/what-is-pla#:~:text=Polylactic%20acid%20or%20polylactide%20(PLA,sugarcane%20or%20sugar%20beet%20pulp.</li>
+								<li>• Toor, R. (no date) How sustainable is PLA 3D printer filament?, Filamentive. Available at:
+								https://www.filamentive.com/how-sustainable-is-pla/</li>
+								<li>• Kinworthy, J. (2024) The eco-friendly traits of PLA 3D printing filament, Filamatrix. Available at:
+								https://filamatrix.com/the-eco-friendly-traits-of-pla-3d-printing-filament/#:~:text=Although%20PLA%20is%20technically%20biodegradable,another%20layer%20of%20environmental%20friendliness.</li>
+								<li>• Xometry (2023) PLA vs. ABS: Differences and comparisons, Xometrys RSS. Available at:
+								https://www.xometry.com/resources/3d-printing/pla-vs-abs-3d-printing/#:~:text=ABS%20contains%20no%20known%20carcinogens,to%20utilize%20a%20ventilation%20duct.</li>
 							</div>
 						</div>
 					</div>
