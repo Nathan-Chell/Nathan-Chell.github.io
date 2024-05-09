@@ -1,0 +1,6 @@
+Online portfolio: https://nathan-chell.github.io/index.html
+Github repo: https://github.com/Nathan-Chell/Nathan-Chell.github.io
+
+I have included a word based version of the online portfolio, inside Write_up.docx. The online portfolio may differ slightly as additional changes were made to the portfolio and not to the word doc.
+
+All stls/images/videos using in the portfolio can be found in assets/.
