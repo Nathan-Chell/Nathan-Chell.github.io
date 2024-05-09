@@ -48,7 +48,29 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							
+							<div class="development">
+								<h1>Development</h1>
+								<p>The development phase focused on bringing the digital designs into a physical form using 3D printers. The 3D models
+								created in fusion 360 and Blender were exported as STL files as this file type ensures the model is a whole shape,
+								without any cuts or holes in it (LEARN HOW TO PREPARE STL files: Stratasys Direct 2022). A slicing program, such as
+								Cura, is used to convert the STL files into G-code, a layer-by-layer set of instructions, that a 3D printer can
+								understand. Slicing settings like layer height, infill and support structures were considered to carefully balance print
+								quality, material usage and wastage and printing time. As a result, as this model is only a prototype, a layer height of
+								0.2mm was used, while an infill setting of only 8% was selected. This results in a ‘strong enough’ model that isn’t too
+								aesthetically pleasing but is very quick to print and doesn’t use a lot of material.</p>
+								<p>The printing process involved heating the print bed and filament extruder, followed by the printer following the path of
+								the G-code while depositing molten PLA. After printing is completed, the support material is removed, and the model can
+								be inspected.</p>
+								<span class="image">
+									<figure>
+										<img src="assets/images/First_model.jpg" alt="" />
+										<figcaption>The first iteration of the bearing</figcaption>
+									</figure>
+								</span>
+								<p>After the first iteration of the bearing was printed, it was discovered that thermal expansion was experienced, that resulted in the rollers being attached to the outer ring of the bearing,
+								resulting in a bearing that couldn’t function. This was tackled by adjusting the thermal expansion composition setting
+								inside of cura. This resulted in a moveable bearing prototype.</p>
+							</div>
 							
 						</div>
 					</div>
